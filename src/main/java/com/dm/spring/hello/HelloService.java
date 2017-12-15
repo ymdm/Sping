@@ -3,6 +3,10 @@ package com.dm.spring.hello;
 public class HelloService {
 	private Hello hello;
 	
+	public HelloService() {
+		super();
+	}
+
 	public HelloService(Hello hello) {
 		super();
 		this.hello = hello;
