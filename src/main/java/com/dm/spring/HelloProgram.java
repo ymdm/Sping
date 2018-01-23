@@ -12,5 +12,6 @@ public class HelloProgram {
 		HelloService service= (HelloService) context.getBean("helloService");
 		Hello hello=service.getHello();
 		hello.sayHello();
+		System.out.println("IDEA TEST");
 	}
 }
